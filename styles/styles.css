@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{ 
+    font-family:'Inter',sans-serif;
+    
+}
+.slider{
+    width:100%;
+    height:80vh;
+    aspect-ratio:16/9;
+    background:#000;
+    position:relative;
+
+   
+}
+.slider-background{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(50%);
+}
+.slider-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+h1{
+    color:#fff;
+    font-size:5rem;
+
+}
+h2{
+    color:#fff;
+    font-size:3rem;
+}
+h3{
+    font-size:3rem;
+    margin-bottom:50px;
+}
+P{
+    font-size:1.5rem;
+    line-height:1.5em;
+}
+
+.slider-content p{
+    color:#fff;
+    font-size:2rem;
+    font-weight: 300;
+
+}
+.section{
+    padding: 100px 0;
+}
+.boxed{
+    max-width:1280px;
+    margin-inline:auto;
+}
+.flex{
+    display:flex;
+}
+
+.violet{
+    background:#6e0e6e;
+    color:#FFF;
+
+}
+.A0{
+    width:40%
+}
+.A1{
+    width:60%
+}
+.text-center{
+    text-align: center;
+}
+.A2{
+    width:20%;
+
+}
+.A3{
+    width: 32%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.gap20{
+    gap:20px;
+
+}
+.skill{
+    background:hsl(0, 0%, 100%);
+    border-radius:15px;
+    padding: 15px;
+    box-sizing:border-box;
+
+}
+.skill img{
+    width:100px;
+    height:100%;
+    aspect-ratio:1/1;
+    object-fit: contain;
+
+}
+.skill h4{
+    margin-top: 10px;
+}
+.white{
+    background: #FFF;
+    color: #000;
+
+}
+
+.realisation{
+    height:auto;
+    aspect-ratio: 1/1;
+    position:relative;
+}
+.realisation h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:2rem;
+    width: max-content;
+
+}
+.realisation a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    color:black;
+
+}
+.realistion img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(50%)
+}
