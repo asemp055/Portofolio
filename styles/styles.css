@@ -19,19 +19,55 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     min-height: 100vh;
+     padding-top: 70px;
 }
 .navbar {
-    background-color: rgba(44, 11, 58, 0.9) !important;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--light-violet);
+    background-color: #2c0b3a !important;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.4);
+    padding: 0.8rem 1rem;
 }
+
+.navbar-brand {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 1.8rem;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #ff5f7e, #8e44ad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+navbar-toggler {
+    border: 2px solid #8e44ad;
+    padding: 0.4rem 0.7rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 95, 126, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-collapse {
+    background-color: #3a0b4a;
+    margin-top: 0.5rem;
+    border-radius: 0 0 10px 10px;
+}
+
 .nav-link {
     font-size: 1.1rem;
-    transition: color 0.3s;
+    padding: 0.8rem 1.2rem !important;
+    transition: all 0.3s;
 }
-nav-link:hover {
-    color: var(--accent-pink) !important;
+.nav-link:hover, .nav-link.active {
+    color: #ff5f7e !important;
+    transform: translateY(-2px);
 }
+.nav-item {
+        margin-bottom: 0.5rem;
+}
+
+
+
 
 .slider{
     width:100%;
@@ -216,6 +252,10 @@ nav-link:hover {
     
     .skill-card {
         padding: 1rem;
+    }
+    .navbar-collapse {
+        padding: 1rem;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
 }
 @media (max-width: 768px) {
