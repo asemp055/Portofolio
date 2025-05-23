@@ -1,107 +1,164 @@
 <!DOCTYPE html>
 <html lang="fr">
-<html>
-    <head>
-        <meta charset="utf-8/>
-        <title> Le portofolio de Adriane </title>
-        <meta type="description" content="Bienvenue sur mon portfolio d'étudiante en deuxième année de Génie logiciel, option gestion et entrepreneuriat en ingénierie." />
-        <link rel="stylesheet"href="styles/styles.css"type="text/css">
-    </head>
+  <head>
+    <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio de Adriane Sempore</title>
+    <meta name="description" content="Portfolio d'Adriane Sempore, étudiante en Génie logiciel spécialisée en gestion et entrepreneuriat." />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    
+  </head>
+  <body class="dark-theme">
+    
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark-violet">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Réalisations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <body>
-
-        <div class="slider">
-            <img src="img/slider.jpg" class="slider-background">
-            <div class="slider-content">
-                <h1>BONJOUR</h1>
-                <h2>je suis ADRIANE SEMPORE</h2>
-                <p>Étudiante en Génie logiciel passionnée par le développement Web</p>
+    <section class="container-fluid p-0 slider">
+        <div class="slider position-relative text-center d-flex align-items-center justify-content-center">
+            <img src="img/slider.jpg" class="slider-background position-absolute w-100h-100" alt="Image de fond">
+            <div class="position-absolute top-50 start-50 translate-middle text-center slider-content">
+                <h1 class="bubble-text">BONJOUR</h1>
+                <h2 class="bubble-text">je suis ADRIANE SEMPORE</h2>
+                <p>Future ingénieure en Génie logiciel, passionnée par le développement Web, l’innovation et la conception centrée sur l’utilisateur.</p>
             </div>
-        <div class ="section">
-            <div class="boxed">
-                <div class="flex">
-                    <div class="A0">
-                        <h3>A propos de moi</h3>
-                    </div>
-                    <div class="A1">
-                        <P>Je suis une étudiante en deuxième année de génie logiciel à l’Université d’Ottawa.
-J’aime travailler en équipe, relever de nouveaux défis et concevoir des solutions utiles.
-Mon processus de conception se base sur l’écoute, l’empathie et l’amélioration continue.</P>
-                         
+        </div>
+    </section>
+    <section id="about" class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="section-title">À propos de moi</h3>
+                <p>Je suis Adriane Semporé, étudiante en deuxième année de génie logiciel à l’Université d’Ottawa, option gestion et entrepreneuriat. Curieuse et motivée, je suis passionnée par le développement web, l’innovation technologique et la création de solutions utiles. J’aime travailler en équipe, relever des défis concrets et apprendre en continu à travers des projets pratiques.</p>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="section-title">Ma façon de travailler</h3>
+                <p>Je me forme actuellement à la conception d’interfaces utilisateur (IU), où j’apprends à concevoir des expériences centrées sur l’utilisateur. J’accorde une grande importance à l’empathie, à l’écoute des besoins et à l’amélioration continue. Mon objectif : créer des interfaces simples, intuitives et accessibles.</p>
+            </div>
+        </div>
+    </section>
+   
+
+    
+
+    <section id="skills" class="bg-dark-section py-5">
+        <div class="container">
+            <h3 class="section-title text-center mb-5">Mes compétences</h3>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-2 col-6 skill-card">
+                    <img src="img/html-logo.png" alt="HTML">
+                    
+                </div>
+                <div class="col-md-2 col-6 skill-card">
+                    <img src="img/CSS-logo.png" alt="CSS">
+                    
+                </div>
+                <div class="col-md-2 col-6 skill-card">
+                    <img src="img/JS-logo.png" alt="JavaScript">
+                    
+                </div>
+                <div class="col-md-2 col-6 skill-card">
+                    <img src="img/Java-logo.png" alt="Java">
+                    
+                </div>
+                <div class="col-md-2 col-6 skill-card">
+                    <img src="img/Python-logo.png" alt="Python">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+            
+   
+    <section id="projects" class="container py-5">
+        <h3 class="section-title text-center mb-5">Mes réalisations</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="project-card">
+                    <img src="img/PCsurMésure.png" class="project-img" alt="PC sur mesure">
+                    <div class="project-overlay">
+                        <h4>PC sur mesure</h4>
+                        <p>Site e-commerce pour ordinateurs personnalisés</p>
+                        <a href="#" class="btn btn-outline-light">Voir le projet</a>
                     </div>
                 </div>
-
-
             </div>
-        </div>
-
-        <div class ="section violet">
-            <div class="boxed text-center">
-                <h3> Découvrez mes compétences</h3>
-                <div class="flex gap20">
-
-                    <div class="A2 skill">
-                        <img src="img/html-logo.png">
-                        <h4>HTML</h4>
-
-                    </div>
-                    <div class="A2 skill">
-                        <img src="img/CSS-logo.png">
-                        <h4>CSS</h4>
-
-                    </div>
-                    <div class="A2 skill">
-                        <img src="img/JS-logo.png">
-                        <h4>Javascript</h4>
-
-                    </div>
-                    <div class="A2 skill">
-                        <img src="img/Java-logo.png">
-                        <h4>Java</h4>
-
-                    </div>
-                    <div class="A2 skill">
-                        <img src="img/Python-logo.png">
-                        <h4>Python</h4>
-
+            <div class="col-md-6">
+                <div class="project-card">
+                    <img src="img/FreshAlert.png" class="project-img" alt="FreshAlert">
+                    <div class="project-overlay">
+                        <h4>FreshAlert</h4>
+                        <p>Application de gestion des aliments</p>
+                        <a href="#" class="btn btn-outline-light">Voir le projet</a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class ="section">
-            <div class="boxed text-center ">
-                 <h3> Mes réalisations</h3>
-                 <div class="flex space-between">
-                    <div class="A3 realisation">
-                        <a href="/"> <!--pour mener a ala page de réalisation -->
-                            <img src="img/PCsurMésure.png">
-                            <h4>Site de commande d'ordinateur sur mésure</h4>
-
-
-                        </a>
-
-                    </div>
-                    <div class="A3 realisation">
-                        <a href="/"> <!--pour mener a ala page de réalisation -->
-                            <img src="img/FreshAlert.png">
-                            <h4>Site pour conserver la nouriture</h4>
-
-
-                        </a>
-
-                    </div>
-                 </div>
-
-
+    <section id="contact" class="bg-dark-section py-5">
+    <div class="container">
+        <h3 class="section-title text-center mb-5">Contactez-moi</h3>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4 contact-method">
+                <a href="mailto:asemp055@uottawa.ca" class="contact-link">
+                    <span class="material-symbols-outlined icon">mail</span>
+                    <span class="label">Email</span>
+                    <span class="value">asemp055@uottawa.ca</span>
+                </a>
             </div>
-
+            <div class="col-md-4 contact-method">
+                <a href="tel:+18199187286" class="contact-link">
+                    <span class="material-symbols-outlined icon">phone</span>
+                    <span class="label">Téléphone</span>
+                    <span class="value">819-918-7286</span>
+                </a>
+            </div>
+            <div class="col-md-4 contact-method">
+                <a href="https://www.linkedin.com/in/adriane-sempore2004/" target="_blank" class="contact-link">
+                    <span class="material-symbols-outlined icon">link</span>
+                    <span class="label">LinkedIn</span>
+                    <span class="value">/in/adrianesempore</span>
+                </a>
+            </div>
         </div>
+    </div>
+</section>
 
 
-        
-         
+    <footer class="bg-dark-footer footer-content py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Adriane Sempore. Tous droits réservés.</p>
+        </div>
+    </footer>
 
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
+</body>
 </html>
